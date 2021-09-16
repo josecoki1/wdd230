@@ -1,0 +1,86 @@
+
+.box-1{
+    background-color: cornflowerblue;
+    color:white;
+    width:50%;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+}
+.box-1 h1{
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-family:sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   padding-left: 20%;
+}
+.box-1 img{
+    position:absolute;
+    top: 10px;
+    left:75%;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+.box-2{
+    background-color: white;
+    color:black;
+    width:50%;
+    margin: auto;
+    
+
+}
+.box-2 h1{
+
+    font-size: 20px;
+    font-weight:bold;
+    font-style: normal;
+    font-family:sans-serif;
+    border-bottom: 1px black solid;
+}
+.box-3{
+    background-color: white;
+    color:black;
+    width:50%;
+    margin: auto;
+
+    
+}
+.box-3 li{
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-family:sans-serif;
+
+
+}
+.box-4{
+    background-color: cornflowerblue;
+    color:white;
+    width:50%;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.box-4 a{
+    color: white;
+}
+.copyRt{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-family:sans-serif;
+    padding-left: 20%;
+    
+}
+.lastUp{
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-family:sans-serif;
+    padding-left: 35%;
+    color: yellow;
+}
