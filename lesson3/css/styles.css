@@ -1,0 +1,114 @@
+/*small viewport*/
+.siteTitle {
+    display: flex;
+    flex-direction: row;
+}
+.siteTitle img {
+
+    margin-top: 0px;
+}
+.siteTitle h1 {
+        padding-top: 1em;
+        max-width: 1920px;
+}
+
+.sitepurpose {
+    text-align: center;
+    max-width: 1920px;
+}
+
+
+img.weathermap {
+    padding: 1em;
+    max-width: 1920px;
+    width: 50%;
+    margin: auto;
+    position:relative;
+
+    
+}
+
+.menu {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.menu ul {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li {
+   
+    display: block;
+    border-style: dotted;
+    padding: 1em;
+    text-align: center;
+    list-style: none;
+    
+}
+a.index {
+    order: 1;
+}
+a.taraud {
+    order: 2;
+}
+
+.box-4 {
+    background-color: cornflowerblue;
+    color:white;
+    width:50%;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.box-4 a {
+    color: white;
+}
+
+.domain img {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    position: relative;
+
+}
+/*medium viewport*/
+
+@media (min-width: 32.5em) and (max-width: 800em) {
+    img.weathermap {
+        padding: 1em;
+        max-width: 1920px;
+        text-align: center;
+        
+    }
+}
+
+
+/*large viewport*/
+@media (min-width: 80em) {
+    img.weathermap {
+    padding: 5em;
+    max-width: 1920px;
+    text-align: center;
+    }
+}
