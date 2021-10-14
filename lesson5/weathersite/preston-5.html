@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outsidepeak.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+  </head>
+
+  <header>
+    <picture>
+      <img src="images/weatherman.png" alt="weatherman" />
+    </picture>
+    <section class="headings">
+      <h1>Welcome to Outsidepeak.com!</h1>
+      <q class="m">Your Outside Peak at Weather!</q>
+    </section>
+  </header>
+
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+    <script src="js/menu.js"></script>
+  </nav>
+  <main>
+    <h2>Preston Idaho</h2>
+    <div class="mainsummary">
+      <div class="heropic">
+        <img src="images/mountainrng760.jpg" alt="Mountain Range">
+      </div>
+      <section class="hero-forecast">
+          <h3>Weather Summary</h3>
+          <p>Currently: <a class="w-sum-values"> Cloudy &#x26C5</a></p>
+          <p>Temperature: <a class="w-sum-values"> 76&#176 F</a></p>
+          <p>Humidity: <a class="w-sum-values"> 69%</a></p>
+          <p>Precipitation: <a class="w-sum-values"> 2 inches</a></p>
+          <p>Wind Speed: <a class="w-sum-values"> 5 mph</a></p>
+
+      </section>
+    </div>
+    <div class="fiveforcast">
+        <h3>High Temperature Forecast</h3>
+        <table>
+            <tr>
+                <th class="tb-hd-right">Day</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+            </tr>
+            <tr class="forecast-results">
+                <td class="tb-hd-right">Forecast</td>
+                <td>86&#176 F</td>
+                <td>75&#176 F</td>
+                <td>78&#176 F</td>
+                <td>82&#176 F</td>
+                <td>85&#176 F</td>
+            </tr>
+        </table>
+    </div>
+    <div class="article">
+        <div class="article-content">
+            <h3>Slick roads keeping troopers busy on eastern Idaho roads</h3>
+            <h4>Eric Grossarth, EastIdahoNews.com</h4>
+            <p>MENAN — Winter weather and slick roads are keeping Idaho State Police busy.
+
+                ISP Lt. Marvin Crain tells EastIdahoNews.com troopers were at least three separate crashes around 8:45 a.m. and several slide-offs were reported along U.S. Highway 20 between Rexburg and Idaho Falls.
+                
+                “SLOW DOWN. Change your driving habits. Roads in Eastern Idaho are snow-covered, slushy and slick. Troopers are busy, busy this morning,” ISP said on Twitter.
+                
+                Troopers reported a crash on Interstate 15 in the southbound lane at milepost 99.5 near the Rose/Firth exit. A semi-truck reportedly lost control with its trailer and hit the guardrail, blocking the right lane.
+                
+                Some areas in eastern Idaho have at least six inches of snow and the National Weather Service has issued a Winter Weather advisory for a significant portion of our area. For the latest weather information visit the <a href="https://www.eastidahonews.com/weather/">EastIdahoNews.com weather page.</a></p>
+        </div>
+      <img src="images/couplehiking220.jpg" alt="couple hiking">
+    </div>
+    <div class="contact">
+      <p>contact information</p>
+    </div>
+  </main>
+  <footer>
+    <script defer src="js/currentDate.js"></script>
+    <p>&copy;<span id="currentDateString"></span></p>
+  </footer>
+</html>

@@ -1,0 +1,11 @@
+.mainsummary {
+margin: 10px auto;
+position: relative;
+width: 960px;
+height: 300px;
+}
+.heropic {
+margin: 10px auto;
+width: 320px;
+height: 100%;
+}
