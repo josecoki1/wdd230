@@ -52,8 +52,11 @@
     }
 
     .article img {
-      display: inline;
       position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 220px;
+      height: auto;
 
     
     }

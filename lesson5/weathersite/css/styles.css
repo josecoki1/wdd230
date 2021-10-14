@@ -196,6 +196,7 @@ margin-top: .25em;
   font-family: 'Roboto', sans-serif;
   padding-left: 1em;
   padding-top: 1em;
+  padding-right: 1em;
   margin-top: 1.5em;
   border: solid 1pt black;
   color: #777;
@@ -217,14 +218,13 @@ margin-top: .25em;
   font-size: 10pt;
   font-weight: normal;
   margin: 0;
+  padding-bottom: 1em;
 
 }
 
 .article img {
-  display: none;
-  position: absolute;
-  top: 60px;
-  right: 20px;
+  display: inline;
+width: 100%;
   box-shadow: 0 0 30px #777;
 
 }
