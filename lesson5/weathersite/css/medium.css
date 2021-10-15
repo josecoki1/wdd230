@@ -44,7 +44,8 @@
         font-size: 10pt;
         font-weight: normal;
         margin: 0;
-        padding-right: 240px;}
+        padding-right: 240px;
+      }
 
         .article img {
           position: absolute;
@@ -55,19 +56,14 @@
 
         
         }
-  
-  footer {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 760px;
-    max-height: 25px;
-    background-color: cornflowerblue;
-    justify-content: center;
-    align-items: center;
-}
+        .footercls {
+          display: flex;
+          justify-content: space-evenly;
+        }
 
+        .socialm img {
+          display: inline;
+        }
 footer p {
     font-size: 10pt;
 }  

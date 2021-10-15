@@ -4,10 +4,11 @@ body {
   margin: 0;
 }
 
+
 header {
-  background-color: #fff;
-  padding: 5px 0;
-  display: flex;
+    background-color: #fff;
+  padding: 0;
+  
   align-items: center;
   justify-content: center;
 }
@@ -16,7 +17,24 @@ header img {
   width: 80px;
   height: auto;
 }
+.banner {
+  display: block;
+  background-color: yellow;
+  margin: 0 auto;
+  
+  text-align: center;
+  color: red;
+  font-family: 'Roboto', sans-serif;
 
+}
+
+.logo-head {
+  display: flex;
+  margin: 0 auto;
+  max-width: 920px;
+  padding-top: 1em;
+  
+}
 .headings {
   display: flex;
   flex-direction: column;
@@ -25,7 +43,7 @@ header img {
 .headings h1 {
   font-size: 1.6rem;
   margin: 0 0 0 17px;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .m {
@@ -39,7 +57,7 @@ header img {
 
 nav {
   margin: 0 auto;
-  max-width: 760px;
+
   background-color: cornflowerblue;
 }
 .navigation {
@@ -67,6 +85,9 @@ nav {
   background-color: black;
 }
 
+.preston {
+  text-decoration: underline;
+}
 .responsive li {
   display: block;
 }
@@ -230,18 +251,54 @@ width: 100%;
 }
 
 footer {
-    display: flex;
+    display: block;
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 100%;
     max-height: 25px;
     background-color: cornflowerblue;
     justify-content: center;
     align-items: center;
 }
 
-footer p {
-    font-size: 15pt;
+.contact {
+    font-size: 10pt;
+    color: black;
     font-family: 'Roboto', sans-serif;
+}
+.cont-title{
+    font-size: 12pt;
+    
+}
+
+.google-map  {
+  align-items: center;
+}
+.footercls {
+  
+  background-color: rgb(149, 180, 238);
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  margin-top: 1.5em;
+   color: #fffff7;
+}
+
+.socialm img {
+  display: none;
+  padding-right: 1em;
+  margin: 0em;
+}
+.footerbar {
+  font-size: 8pt;
+  font-style: italic;
+  text-align: center;
+  background-color: cornflowerblue;
+  margin-top: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 }

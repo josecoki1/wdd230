@@ -61,19 +61,14 @@
     
     }
 
-  footer {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 760px;
-    max-height: 25px;
-    background-color: cornflowerblue;
-    justify-content: center;
-    align-items: center;
-}
+    .socialm img {
+      display: inline;
+    }
 
-footer p {
-    font-size: 10pt;
-}
+    .footercls {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+
 }
