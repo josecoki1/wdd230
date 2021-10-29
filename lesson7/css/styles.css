@@ -164,6 +164,31 @@ font-family: 'Roboto', sans-serif;
 font-size: 13px;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 40px;
+  padding: 40px;
+    }
+
+.gallery .gallery-pics {
+  margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+.gallery-pics img{
+  max-width: 300px;
+       }
+
+.gallery-pics p {
+  padding-left: 10px;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+  
+
 .hero-forecast{
    display: block;
     list-style: none;
@@ -250,6 +275,8 @@ width: 100%;
 
 }
 
+
+
 footer {
     display: block;
     list-style: none;
@@ -297,8 +324,9 @@ footer {
   text-align: center;
   background-color: cornflowerblue;
   margin-top: 0em;
+  margin-bottom: 0em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
-}
+

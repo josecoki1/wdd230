@@ -4,14 +4,22 @@
     align-items: center;
 }
 
-main img[data-src] {
+.pic-column img[data-src] {
     filter:blur(0.2em);
 }
 
-main img {
+.pic-column img {
     filter:blur(0em);
     transition: filter 0.5s;
     border: 1px solid black;
     padding: 2px;
+
+}
+
+
+.gallery-pics img{
+    filter:blur(0em);
+    transition: filter 0.5s;
+    
 
 }

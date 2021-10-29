@@ -29,6 +29,13 @@
       display: none;
     }
 
+    .gallery {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 40px;
+      padding: 40px;
+        }
+
     .hero-forecast{
       position: absolute;
       width: 200px;
