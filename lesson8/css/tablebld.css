@@ -1,3 +1,12 @@
+@media only screen and (min-width: 32.5em){
+
+	main {
+    font-size: 2.0rem;
+}
+
+
+}
+
 :root {
 	--back: #7fb9c2;
   --back2: #628ca6;
@@ -6,8 +15,11 @@
 	--border: #aeafb0;
 	--borderlight: #aeafb0;
 	--shadow: #e7f0ed;
-	--zebra: #e7ffed;
+	--even: #e7ffed;
+	--odd: #e7f0ed;
 }
+
+
 
 table {
 	margin: 10px auto;
@@ -24,9 +36,7 @@ tr:first-child th {
 	
 }
 
-.thead {
-	font-size: 32px;
-}
+
 
 th, td {
 	padding: 7px 15px;
@@ -37,7 +47,7 @@ th {
 	background-color: var(--back2);
 	color: white;
 	font-weight: bold;
-	font-size: 18px;
+
 }
 
 td {
@@ -45,7 +55,10 @@ td {
 }
 
 tbody tr:nth-child(even) {
-	background-color: var(--zebra);
+	background-color: var(--even);
+}
+tbody tr:nth-child(odd) {
+	background-color: var(--odd);
 }
 .tfooter {
 	font-size: 14px;
