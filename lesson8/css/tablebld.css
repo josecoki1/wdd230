@@ -1,0 +1,59 @@
+:root {
+	--back: #7fb9c2;
+  --back2: #628ca6;
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: #030303;
+	--border: #aeafb0;
+	--borderlight: #aeafb0;
+	--shadow: #e7f0ed;
+	--zebra: #e7ffed;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+	
+}
+
+.thead {
+	font-size: 32px;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+.tfooter {
+	font-size: 14px;
+} 
+.bfriday {
+	font-style: italic;
+}
+.novgoal {
+	background-color: var(--back2);
+	color: white;
+}
