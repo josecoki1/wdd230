@@ -78,5 +78,15 @@
       justify-content: space-evenly;
     }
 
+    form label.top input, form label.top select {
+
+      width: 100%;
+    
+    }
+    
+    form label.stRating, form label.txtArea, textarea.txtArea {
+    
+      width: 100%;
+    }
 
 }
