@@ -53,7 +53,7 @@ img.weathermap {
     overflow: hidden;
 }
 .menu li {
-    width: 100px;
+    width: 150px;
     height: 25px;
     display: block;
     border-style: dotted;
