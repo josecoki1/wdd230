@@ -1,0 +1,92 @@
+/* Large viewports */
+@media only screen and (min-width: 60em) {
+    header img {
+      width: 200px;
+      height: auto;
+    }
+  
+    .headings h1 {
+      font-size: 3rem;
+    }
+  
+    .m {
+      letter-spacing: 1.5pt;
+      font-size: larger;
+      margin-left: 17px;
+    }
+    .navigation {
+      display: flex;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+  
+  main h2 {
+    text-align: center;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    padding: 40px;
+      }
+
+  .hero-forecast{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    top: 40px;
+    left: 40px;
+    background: radial-gradient( cornflowerblue, rgb(88, 188, 221));
+    border 1px solid blue;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+    
+    }
+
+    .article-content p {
+      font-size: 10pt;
+      font-weight: normal;
+      margin: 0;
+      padding-right: 240px;
+    }
+
+    .article img {
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 220px;
+      height: auto;
+
+    
+    }
+
+    .socialm img {
+      display: inline;
+    }
+
+    .footercls {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    form label.top input, form label.top select {
+
+      width: 100%;
+    
+    }
+    
+    form label.stRating, form label.txtArea, textarea.txtArea {
+    
+      width: 100%;
+    }
+
+}
