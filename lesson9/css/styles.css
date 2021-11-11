@@ -4,6 +4,13 @@ body {
   margin: 0;
 }
 
+div.wframe {
+  text-align: center;
+}
+
+a.preston {
+  font-size: 25px;
+}
 
 header {
     background-color: #fff;
