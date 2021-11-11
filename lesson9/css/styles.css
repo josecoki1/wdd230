@@ -85,8 +85,9 @@ nav {
   background-color: black;
 }
 
-a.preston {
+.preston {
   text-decoration: underline;
+  
 }
 .responsive li {
   display: block;
@@ -130,7 +131,7 @@ height: auto;
 width: 200px;
 height: 120px;
 background: radial-gradient( cornflowerblue, rgb(88, 188, 221));
-border 1px solid blue;
+
 padding: .5rem;
 box-shadow: 0 0 30px #777;
 
@@ -329,6 +330,53 @@ footer {
   padding-bottom: 0.5em;
 }
 
+/* Town Summary Div*/
+.townsum {
+		display: flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 600px;
+  margin: .5rem auto;
+  align-items: center;
+	
+}
+.townsum section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em 0 0.5em 0;
+  background: cornflowerblue;
+  padding-bottom: 0.5em;
+  width: 100%;
+  width: 310px;
+  height: 410px;
+}
+
+.townsum h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+
+.townsum h3 {
+  color: rgb(204, 201, 201);
+  font-style: italic;
+  font-size: 12px;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.townsum p {
+  font-size: 20px;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0;
+}
+
+.townsum img {
+  max-width: 300px;
+}
 
 /*----------FORM Info----------*/
 form fieldset {
