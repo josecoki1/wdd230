@@ -3,7 +3,7 @@ var n = new Date();
 var d = n.getDay();
 var chg = document.querySelector(".banner");
 
-console.log(d);
+// console.log(d);
 
 
 function SetDivContent() {
@@ -15,6 +15,6 @@ function SetDivContent() {
     }
 }
 
-    console.log(chg);
+//    console.log(chg);
 
 SetDivContent();
