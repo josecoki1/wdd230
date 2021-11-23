@@ -1,0 +1,469 @@
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+div.wframe {
+  text-align: center;
+}
+
+a.preston {
+  font-size: 25px;
+}
+
+header {
+    background-color: #fff;
+  padding: 0;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+.banner {
+  display: block;
+  background-color: yellow;
+  margin: 0 auto;
+  
+  text-align: center;
+  color: red;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#imagesrc {
+  display: none;
+}
+
+#currentwicon {
+  margin: 0;
+  width: 25px;
+  height: 25px
+}
+
+.logo-head {
+  display: flex;
+  margin: 0 auto;
+  max-width: 920px;
+  padding-top: 1em;
+  
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+.headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.m {
+  font-style: italic;
+  letter-spacing: 1pt;
+  color: forestgreen;
+  margin-left: 20px;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  margin: 0 auto;
+
+  background-color: cornflowerblue;
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
+}
+.navigation a:hover {
+  color: white;
+  background-color: black;
+}
+
+.preston {
+  text-decoration: underline;
+  
+}
+.responsive li {
+  display: block;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+main div {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 760px;
+  
+    
+}
+
+main h2 {
+  text-align: center;
+}
+.mainsummary {
+margin: 10px auto;
+position: relative;
+
+}
+.heropic {
+margin: 10px auto;
+
+}
+
+.heropic img {
+width: 100%;
+height: auto;
+}
+
+.hero-forecast{
+  margin: auto;
+width: 200px;
+height: 120px;
+background: radial-gradient( cornflowerblue, rgb(88, 188, 221));
+
+padding: .5rem;
+box-shadow: 0 0 30px #777;
+
+}
+
+.hero-forecast h3{
+color: #ffffff;
+text-align: left;
+border-bottom: 1px solid #ffffff;
+margin-block-start: 0em;
+margin-block-end: 0.5em;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+
+}
+
+.hero-forecast p{
+margin-block-start: 0em;
+margin-block-end: 0em;
+color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-size: 13px;
+margin-left: 1.5em;
+
+
+}
+
+.w-sum-values {
+color: rgb(248, 245, 86);  
+font-family: 'Roboto', sans-serif;
+font-size: 13px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 40px;
+  padding: 40px;
+    }
+
+.gallery .gallery-pics {
+  margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+.gallery-pics img{
+  max-width: 300px;
+       }
+
+.gallery-pics p {
+  padding-left: 10px;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+  
+
+.hero-forecast{
+   display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.fiveforcast{
+  display: block;
+  list-style: none;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: cornflowerblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fiveforcast h3 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  padding-top: 1em;
+
+}
+
+.fiveforcast table {
+  margin: 0 auto;
+margin-top: .25em;
+  color: #777;
+  background-color: #fff;
+   width: 50%;
+  
+}
+.forecast-results {
+  text-align: center;
+  background-color: cornflowerblue;
+  color: #fff;
+  
+}
+.tb-hd-right {
+  text-align: right;
+  background-color: #fff;
+  color: #777;
+}
+
+.article {
+  position: relative;
+  background-color: rgb(164, 191, 240);
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  margin-top: 1.5em;
+  border: solid 1pt black;
+  color: #777;
+}
+
+.article-content h3 {
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+.article-content h4 {
+  font-style: italic;
+  font-size: 8pt;
+  font-weight: normal;
+  margin: 0;
+}
+
+.article-content p {
+  font-size: 10pt;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 1em;
+
+}
+
+.article img {
+  display: inline;
+width: 100%;
+  box-shadow: 0 0 30px #777;
+
+}
+
+
+
+footer {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 25px;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    font-size: 10pt;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.cont-title{
+    font-size: 12pt;
+    
+}
+
+.google-map  {
+  align-items: center;
+}
+.footercls {
+  
+  background-color: rgb(149, 180, 238);
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  margin-top: 1.5em;
+   color: #fffff7;
+}
+
+.socialm img {
+  display: none;
+  padding-right: 1em;
+  margin: 0em;
+}
+.footerbar {
+  font-size: 8pt;
+  font-style: italic;
+  text-align: center;
+  background-color: cornflowerblue;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* Town Summary Div*/
+.townsum {
+		display: flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 600px;
+  margin: .5rem auto;
+  align-items: center;
+	
+}
+.townsum section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em 0 0.5em 0;
+  background: cornflowerblue;
+  padding-bottom: 0.5em;
+  width: 100%;
+  width: 310px;
+  height: 410px;
+}
+
+.townsum h2 {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+
+.townsum h3 {
+  color: rgb(204, 201, 201);
+  font-style: italic;
+  font-size: 12px;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.townsum p {
+  font-size: 20px;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0;
+}
+
+.townsum img {
+  max-width: 300px;
+}
+
+/*----------FORM Info----------*/
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  max-width: 100%;
+}
+
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 275px;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.stRating, form label.txtArea, textarea.txtArea {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+  padding-bottom: 1rem;
+  width: 300px;
+}
+
+form label.txtArea {
+  margin-bottom: 1rem;
+}
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+    padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+  }
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}

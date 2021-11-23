@@ -1,0 +1,72 @@
+@media only screen and (min-width: 32.5em){
+
+	main {
+    font-size: 2.0rem;
+}
+
+
+}
+
+:root {
+	--back: #7fb9c2;
+  --back2: #628ca6;
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: #030303;
+	--border: #aeafb0;
+	--borderlight: #aeafb0;
+	--shadow: #e7f0ed;
+	--even: #e7ffed;
+	--odd: #e7f0ed;
+}
+
+
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+	
+}
+
+
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+	color: white;
+	font-weight: bold;
+
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--even);
+}
+tbody tr:nth-child(odd) {
+	background-color: var(--odd);
+}
+.tfooter {
+	font-size: 14px;
+} 
+.bfriday {
+	font-style: italic;
+}
+.novgoal {
+	background-color: var(--back2);
+	color: white;
+}

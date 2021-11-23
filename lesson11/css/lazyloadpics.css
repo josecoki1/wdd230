@@ -1,0 +1,25 @@
+.pic-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic-column img[data-src] {
+    filter:blur(0.2em);
+}
+
+.pic-column img {
+    filter:blur(0em);
+    transition: filter 0.5s;
+    border: 1px solid black;
+    padding: 2px;
+
+}
+
+
+.gallery-pics img{
+    filter:blur(0em);
+    transition: filter 0.5s;
+    
+
+}

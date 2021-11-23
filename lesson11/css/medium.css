@@ -1,0 +1,176 @@
+/* Medium viewports */
+@media only screen and (min-width: 32.5em) and (max-width: 60em) {
+    header img {
+      width: 140px;
+      height: auto;
+    }
+  
+    .headings h1 {
+      font-size: 3rem;
+    }
+  
+    .m {
+      letter-spacing: 1.5pt;
+      font-size: larger;
+      margin-left: 17px;
+    }
+  
+    .navigation {
+      display: flex;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 40px;
+      padding: 40px;
+        }
+
+    .hero-forecast{
+      position: absolute;
+      width: 200px;
+      height: 140px;
+      top: 40px;
+      left: 40px;
+      background: radial-gradient( cornflowerblue, rgb(88, 188, 221));
+            padding: .5rem;
+      box-shadow: 0 0 30px #777;
+    }
+      .article-content p {
+        font-size: 10pt;
+        font-weight: normal;
+        margin: 0;
+        padding-right: 240px;
+      }
+
+        .article img {
+          position: absolute;
+          top: 60px;
+          right: 20px;
+          width: 220px;
+          height: auto;
+
+        
+        }
+        .footercls {
+          display: flex;
+          justify-content: space-evenly;
+        }
+
+        .socialm img {
+          display: inline;
+        }
+footer p {
+    font-size: 10pt;
+}  
+
+form label.top input, form label.top select {
+
+  width: 100%;
+
+}
+
+form label.stRating, form label.txtArea, textarea.txtArea {
+
+  width: 100%;
+}
+
+/* Town Summary Div*/
+
+.townsum {
+  margin: .5rem auto;
+	
+ 	display: flex;
+	flex-wrap: wrap;
+  max-width: 768px;
+}
+
+.townsum section {
+  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 300px 300px;
+  width: 720px;
+  height: 240px;
+  grid-column-gap: 2em;
+  
+}
+
+.townsum section h2{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  text-align: center;
+}
+.townsum section:nth-child(odd) h2{
+  grid-row-start: 1;
+  grid-column-start: 2;
+  
+}
+.townsum section h3{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  text-align: center;
+}
+.townsum section:nth-child(odd) h3{
+  grid-row-start: 2;
+  grid-column-start: 2;
+
+}
+
+.townsum section p:nth-child(3){
+  grid-row-start: 4;
+  grid-column-start: 1;
+  text-align: center;
+}
+.townsum section p:nth-child(4){
+  grid-row-start: 5;
+  grid-column-start: 1;
+  text-align: center;
+
+}
+.townsum section p:nth-child(5){
+  grid-row-start: 6;
+  grid-column-start: 1;
+  text-align: center;
+}
+.townsum section:nth-child(odd) p:nth-child(3){
+  grid-row-start: 4;
+  grid-column-start: 2;
+
+}
+.townsum section:nth-child(odd) p:nth-child(4){
+  grid-row-start: 5;
+  grid-column-start: 2;
+
+}
+.townsum section:nth-child(odd) p:nth-child(5){
+  grid-row-start: 6;
+  grid-column-start: 2;
+
+}
+
+.townsum section img {
+  grid-row: 1 / span 7;
+  grid-column-start: 2;
+  max-width: 300px;
+  
+}
+.townsum section:nth-child(odd) img {
+  grid-row: 1 / span 7;
+  grid-column-start: 1;
+  max-width: 300px;
+  
+}
+
+}
