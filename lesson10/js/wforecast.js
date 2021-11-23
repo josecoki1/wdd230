@@ -18,28 +18,23 @@ console.log(results);
 const daysofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let day = 0;
 
+
+
+
+
 results.forEach(weaforecast => {
   let eventdate = new Date(weaforecast.dt_txt);
   let forcasttemp = weaforecast.main.temp
+  let iconsrc = `https://openweathermap.org/img/w/${weaforecast.weather[0].icon}.png`;
+  let iconalt = weaforecast.weather[0].description;
+  let iconselect = document.querySelector(`#wea-icon${day + 1}`);
+
   document.querySelector(`#forcastdayvalue${day + 1}`).textContent = daysofweek[eventdate.getDay()];
   document.querySelector(`#forcasttempvalue${day + 1}`).textContent = forcasttemp.toFixed(0);
   day++;
+  iconselect.setAttribute('src',iconsrc);
+  iconselect.setAttribute('alt',iconalt);
 });
 
 });
 
-/*
-const weatherforecast = results['main'];
-   for (let i = 0; i < weatherforecast.temp; i++ ) {
-
-    let foretemp = document.createElement('td');
-    let foretempval = document.createElement('a');
-
-    foretemp.textContent = weatherforecast[i].main.temp;
-
-    foretemp.appendChild(foretempval);
-
-    document.querySelector('tr.forecast-results').appendChild(foretempval);
-  }
-
-*/
