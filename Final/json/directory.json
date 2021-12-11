@@ -1,0 +1,74 @@
+{
+    "members": [
+      {
+        "name": "Advance Auto Parts",
+        "phonenumber": "208.356.4922",
+        "website": "https://advanceautoparts.com",
+        "Address": "125 Valley River Drive, Rexburg, ID 83440"
+           
+      },
+      {
+        "name": "Pioneer Equipment Company",
+        "phonenumber": "208.359.8000",
+        "website": "https://www.pioneerequipment.com/idaho",
+        "Address": "95 Airport Rd. Rexburg, ID 83440"
+          
+      },
+      {
+        "name": "Floyd Wilcox & Sons",
+        "phonenumber": "208.356.7563",
+        "website": "https://www.wilcoxfresh.com/",
+        "Address": "1110 Golden Beauty Dr Rexburg, ID 83440"
+          
+      },
+      {
+        "name": "BYU-Idaho University Relations",
+        "phonenumber": "208.496.3112",
+        "website": "https://www.byui.edu/university-relations",
+        "Address": "Biddulph Hall 323, Rexburg, ID 83460-4660"
+        
+      },
+      {
+        "name": "Melaleuca, Inc.",
+        "phonenumber": "208.522.0700",
+        "website": "https://www.melaleuca.com/",
+        "Address": "57 W Main Street, Rexburg, ID 83440"
+        
+      },
+      {
+        "name": "Premier Powder Coating and Custom Fabrication",
+        "phonenumber": "208.356.3263",
+        "website": "https://www.ppccfab.com/",
+        "Address": "115 N 2nd W, Rexburg, ID 83440"
+        
+      },
+      {
+        "name": "Valley Office Systems",
+        "phonenumber": "208.970.6757",
+        "website": "https://www.valleyofficesystems.com/",
+        "Address": "2050 First St., Idaho Falls, ID 83401"
+        
+      },
+      {
+        "name": "Fisher's Technology",
+        "phonenumber": "208.947.3605",
+        "website": "https://www.fisherstech.com/",
+        "Address": "76 E 1st N, Rexburg, ID 83440"
+        
+      },
+      {
+        "name": "Sand Hill Media",
+        "phonenumber": "208.522.1101",
+        "website": "https://www.sandhillradio.com/",
+        "Address": "854 Lindsay Blvd., Idaho Falls, ID 84302"
+        
+      },
+      {
+        "name": "Standard Journal",
+        "phonenumber": "208.356.5441",
+        "website": "https://www.rexburgstandardjournal.com/",
+        "Address": "23 S 1st E., Rexburg, ID 83440"
+        
+      }
+    ]
+  }
