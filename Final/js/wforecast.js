@@ -3,17 +3,17 @@ const requestforecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=
 fetch(requestforecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+  //  console.log(jsObject);
     
     const forecast1 = jsObject.list;
-    console.log(forecast1);
+   // console.log(forecast1);
 
 
  /* Filter array items based on search criteria (query)
  */
 
   var results = forecast1.filter(({ dt_txt} ) => dt_txt.includes('18:00:00'));
-console.log(results);
+//console.log(results);
 
 const daysofweek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let day = 0;

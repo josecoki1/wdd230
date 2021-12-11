@@ -5,7 +5,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5605242&appid
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-     console.log(jsObject);
+    // console.log(jsObject);
     const ctemp = Math.round(JSON.parse((jsObject.main.temp - 273.15) * 9/5) + 32);
     //console.log(ctemp);
     document.getElementById('temp').textContent = ctemp;
